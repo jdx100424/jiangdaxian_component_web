@@ -13,7 +13,6 @@ import com.alibaba.fastjson.JSONObject;
 @Controller
 public class ErrorHandleController implements ErrorController {
 
-	@Override
 	public String getErrorPath() {
 		return "/error";
 	}
