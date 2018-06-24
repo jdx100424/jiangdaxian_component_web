@@ -17,7 +17,7 @@ public class ErrorHandleController implements ErrorController {
 		return "/error";
 	}
 
-	@RequestMapping
+	@RequestMapping(value = "/error")
 	@ResponseBody
 	public String errorHandle() {
 		Map<String, Object> map = new HashMap<String, Object>();
